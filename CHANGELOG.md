@@ -9,26 +9,15 @@ and this project adheres to **[Semantic Versioning](https://semver.org/spec/v2.0
 
 ---
 
-## [0.1.0] - 2026-04-22
+## [0.1.0] - 2026-04-26
 
 ### Added
 
-- Initial release of constitutional specification and validation framework
-- Canonical artifact definitions:
-  - class registry
-  - dependency rules
-  - naming patterns
-  - manifest schema
-  - repo requirements
-- SE_MANIFEST schema (se-manifest-2) and repository declaration model
-- Cross-file validation enforcing inter-artifact consistency
-- TypedDict-based schema definitions for all artifacts
-- Validation modules with test coverage
-- Documentation site (folder-based navigation)
-- CI: GitHub Actions (lint, type check, tests, docs build)
-- Repository hygiene:
-  - Ruff (lint and format)
-  - pre-commit hooks
+- Initial mathematics-domain mapping scaffold built on `se-mapping-education`
+- NOR definitions for mathematics competency units (ACUs)
+- Mathematics-specific context references (NAEP, CCSS, PISA, national systems)
+- Example mapping structures (CTX → NOR) for mathematics domains
+- Documentation for mathematics mapping scope and structure
 
 ---
 
