@@ -1,0 +1,50 @@
+# ============================================================
+# CITATION.cff (How to cite this project)
+# ============================================================
+
+# REQ.UNIVERSAL: Professional open projects SHOULD include this file.
+# USAGE: See https://citation-file-format.github.io/ for details.
+
+cff-version: "1.2.0"
+type: software
+
+title: "Structural Explainability Mapping: Education Math"
+version: "0.1.0"
+date-released: "2026-04-26"
+
+authors:
+  - family-names: Case
+    given-names: Denise M.
+    orcid: "https://orcid.org/0000-0001-6165-7389"
+    affiliation: "Northwest Missouri State University, School of Computer Science and Information Systems, Maryville, MO, USA"
+
+repository-code: "https://github.com/structural-explainability/se-mapping-education-math"
+url: "https://github.com/structural-explainability/se-mapping-education-math"
+
+license: MIT
+
+abstract: >
+  Mathematics-domain conformance examples for Structural Explainability
+  mappings using atomic competency units.
+
+keywords:
+  # identity
+  - structural-explainability
+  - mathematics-standards
+  - atomic-competency-units
+  - standards-mapping
+  - conformance-example
+
+  # practices
+  - cross-system-mapping
+  - atomic-competency-units
+  - declarative-mapping
+  - schema-validation
+  - reproducible-artifacts
+
+  # ecosystem
+  - python
+  - open-data
+  - open-source
+
+message: "If you use this work, please cite it using the metadata in this file."

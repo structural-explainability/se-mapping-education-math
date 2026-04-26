@@ -1,5 +1,10 @@
+# data/mappings/example.toml
+# Minimal conformance example. One valid alignment, all required fields present.
+
 [[alignment]]
 source_id = "example.source"
 target_id = "example.target"
 relation = "equivalent"
 confidence = 1.0
+method = "expert_review"
+human_validated = false

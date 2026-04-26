@@ -1,0 +1,72 @@
+# ============================================================
+# SE_MANIFEST.toml (Repository Declaration)
+# ============================================================
+
+schema = "se-manifest-2"
+
+# === Identity ===
+
+[meta]
+name = "se-mapping-education-math"
+org = "structural-explainability"
+status = "planned"
+version = "0.1.0"
+
+[repo]
+class = "mapping"
+summary = "Mathematics-domain conformance examples using atomic competency units."
+
+# === Structural contract ===
+
+[depends]
+required = [
+  "se-constitution",
+  "se-kernel",
+  "se-mapspec",
+  "se-mapping-education",
+]
+optional = [
+  "se-mapping-education-math-g8",
+]
+
+[provides]
+artifacts = [
+  "math-atomic-competency-units",
+  "math-contexts",
+  "math-mapping-examples",
+  "math-coverage-examples",
+]
+
+[scope]
+includes = [
+  "mathematics-domain mapping examples",
+  "shared math atomic competency units",
+  "math-specific mapping validation examples",
+]
+
+excludes = [
+  "full curriculum models",
+  "assessment scoring",
+  "student performance claims",
+  "policy interpretation",
+  "dashboards or public participation systems",
+]
+
+[validation]
+entrypoint = "se_mapping_education_math.app:run_validate"
+
+# === Behavior / governance ===
+
+[naming]
+pattern = "se-mapping-{standard}"
+
+[governance]
+authority = "structural-explainability"
+
+# === External references ===
+
+[citation]
+cff = "CITATION.cff"
+
+[traceability]
+identifier_map = "none"
