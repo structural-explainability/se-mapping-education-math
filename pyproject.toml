@@ -138,7 +138,7 @@ convention = "google"   # ALT: "numpy" — choose one, never mix.
 # === UV LOCAL SOURCES ===
 
 [tool.uv.sources]
-se-mapping-education = { path = "../se-mapping-education", editable = true }
+se-mapping-education = { git = "https://github.com/structural-explainability/se-mapping-education", branch = "main" }
 
 # ============================================================
 # SECTION 3: BUILD SYSTEM (boilerplate; CUSTOM src/ agreement)

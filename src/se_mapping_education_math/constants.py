@@ -4,28 +4,21 @@ Keep aligned with
 se-mapspec/data/alignment/alignment-schema.toml.
 """
 
-ALLOWED_RELATIONS: frozenset[str] = frozenset(
-    {
-        "equivalent",
-        "narrower",
-        "broader",
-        "overlaps",
-        "none",
-    }
+from se_mapping_education.constants import (
+    ALLOWED_METHODS,
+    ALLOWED_RELATIONS,
+    DEFAULT_DATA_DIR,
+    DEFAULT_MAPPINGS_DIR,
+    DEFAULT_MATRIX_OUTPUT,
 )
-
-ALLOWED_METHODS: frozenset[str] = frozenset(
-    {
-        "manual",
-        "expert_review",
-        "llm_assisted",
-        "rule_based",
-        "imported",
-    }
-)
-
-DEFAULT_DATA_DIR = "data"
-DEFAULT_MAPPINGS_DIR = "data/mappings"
-DEFAULT_MATRIX_OUTPUT = "docs/en/coverage-matrix.md"
 
 MATH_DOMAIN = "math"
+
+__all__ = [
+    "ALLOWED_METHODS",
+    "ALLOWED_RELATIONS",
+    "DEFAULT_DATA_DIR",
+    "DEFAULT_MAPPINGS_DIR",
+    "DEFAULT_MATRIX_OUTPUT",
+    "MATH_DOMAIN",
+]
