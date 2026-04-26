@@ -5,10 +5,10 @@ to education standards across independent systems.
 
 ## Artifacts
 
-- [Contexts](./contexts/)
-- [Mappings](./mappings/)
-- [Examples](./examples/)
-- [Validation](./validation/)
+- [Contexts](./contexts.md)
+- [Mappings](./mappings.md)
+- [Examples](./examples.md)
+- [Validation](./validation.md)
 
 ## Scope
 
