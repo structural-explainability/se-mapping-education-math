@@ -59,12 +59,10 @@ participation systems belong in downstream organizations.
 
 ### In a machine terminal
 
-After you get a copy of this repo in your own GitHub account,
-open a machine terminal in `Repos` or where you want the project:
+Open a machine terminal where you want the project:
 
 ```shell
-# Replace username with YOUR GitHub username.
-git clone https://github.com/username/se-mapping-education-math
+git clone https://github.com/structural-explainability/se-mapping-education-math
 
 cd se-mapping-education-math
 code .
